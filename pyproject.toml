@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "rpadmin"
+version = "0.1.0"
+description = "Tools for administering my RunPod account"
+authors = ["op131csharpminr"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
