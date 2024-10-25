@@ -9,4 +9,4 @@ echo "export CARGO_HOME=/workspace/opt/cargo" >> ~/.bashrc
 echo "export PATH=$PATH:/workspace/opt/poetry/bin:/workspace/opt/cargo/bin" >> ~/.bashrc
 
 # Log in to Hugging Face
-cat /workspace/hf_token | tr -d " \t\n\r" | xargs -0 -I {} poetry run huggingface-cli login --token={}
+# cat /workspace/hf_token | tr -d " \t\n\r" | xargs -0 -I {} poetry run huggingface-cli login --token={}
